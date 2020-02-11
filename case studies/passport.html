@@ -1,0 +1,61 @@
+<!Doctype html>
+<head>
+	<link rel="stylesheet" type="text/css" href="passport.css">
+	<h1 align="center" style="color: green">Passport Registration Form</h1>
+	<script type="text/javascript" src="passport.js"></script>
+</head>
+       <body>
+        <form  name="myform" action="pass.html"  onsubmit="return validateform()">
+       	    <center>
+       	<table>
+       	<tr>
+          <th>user name:</th>
+          <td> <input type="text" name="name"></td>
+        </tr>
+	     <tr>
+        <th>password:</th>
+        <td> <input type="password" name="password"></td>
+      </tr>
+	     <tr>
+        <th>qualification</th>
+          <td>
+            <select id="qualification">
+          	<option value=""></option>
+   	     <option value="b.tech">b.tech</option>
+   	     <option value="b.e">b.e</option>
+   	     <option value="b.sc">b.sc</option>
+   </select>
+ </td>
+</tr>
+
+          <tr>
+            <th>email id:</th>
+            <td> <input type="email" name="mail"></td>
+          </tr>
+          <tr>
+            <th>contact:</th>
+            <td> <input type="number" name="number"></td>
+          </tr>
+          <tr>
+            <th>Date of bith:</th>
+            <td> <input type="date"></td>
+          </tr>
+        <tr><th>Apply type</th>
+          <td><select id="apply type">
+          	<option value=""></option>
+   	     <option value="tatkal">tatkal</option>
+   	     <option value="general">general</option>
+
+   </select></td></tr>
+   <tr><th>gender</th>
+   	<td><input type="radio" name="male">male
+   		<input type="radio" name="female">female</td></tr>
+   <tr><th>hint question:</th><td> <input type="text"></td></tr>		
+     <tr><th>hint answer:</th><td> <input type="text"></td></tr>   
+</form>
+</table><br>
+          <br>
+        <tr><td> <button onclick="validateform()">submit</button></td></tr>
+         <tr><td> <button>reset</button></td></tr>
+     </center>
+ </body>

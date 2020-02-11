@@ -1,0 +1,18 @@
+body{
+	background-color: pink;
+}
+#color{
+background-image:linear-gradient(pink,orange);
+}
+
+		table,th,td{
+			font-size: 20px;
+           border:3px solid black;
+           border-collapse: collapse;
+           background-color: blue;
+           width: 30%;
+		}
+		 th,td{
+		 	padding: 20px;
+
+		 }

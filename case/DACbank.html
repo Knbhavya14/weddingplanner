@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DAC BANK</title>
+	<h1 align="right" style="color: #800080">DAC BANK-AVAIL LOAN</h1>
+</head>
+<style type="text/css">
+	body{
+		background-color: pink;
+	}
+	.fieldset{
+		width: 350px;
+		padding:10px;
+		border-color: blue;
+		line-height: 3.0; 
+		border-width: 5px;
+	}
+</style>
+<body><center>
+	<fieldset class="fieldset">
+  <table>
+	<form>
+	<tr>
+		<th><label><b>Customer Name</b></label></th>
+	    <td><input type="name" name="Customer Name" value="" required><td></tr>
+	<tr>
+		<th><label><b>Address</b></label></th>
+	<td><textarea type="Address" name="Address" value=""  required></textarea></td></tr>
+	<tr><th><label><b>Gender</b></label></th>
+      <td> <input type="radio" name="gender" value="" required>male
+       <input type="radio" name="gender" value="" required>female</td></tr>
+    <tr><th><label><b>Email ID</b></label></th>
+	<td><input type="Email" name="Email" value=""></td></tr>
+	<tr><th><label><b>Mobile Number</b></label></th>
+	<td><input type="Number" name="Mobile Number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" value="" required></td></tr>
+    <tr><th><label><b>Date of birth</b></label></th>
+	<td><input type="date" name="Date of birth" value=""></td></tr>
+	<tr><th><label><b>Loan Type</b></label></th>
+	<td><select>
+		<option value="select">select</option>
+      <option value="Home">Home</option>
+      <option value="Vehicle">Vehicle</option>
+      <option value="Car">Car</option>
+      <option value="Gold">Gold</option>
+      <option value="Education">Education</option>
+    </select></td></tr>
+	<tr><th><label><b>Loan Amount</b></label></th>
+		<td><input type="Number" name="Loan Amount" required></td></tr>
+	<tr><th><label><b>Tenure</b></label></th>
+		<td><select>
+	  <option value="select">select</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+        </select></td></tr>
+    </table>
+    <button>Avail Loan</button>
+    <button>Reset</button>
+    </form>
+    </fieldset>
+</center>
+</body>
+</html>
